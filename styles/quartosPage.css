@@ -1,0 +1,44 @@
+.banner-quarto{
+    height: 20vh !important;
+}
+
+.informacoes{
+    padding: 2em 1em;
+}
+
+.informacoes h3{
+    font-weight: bold;
+    margin-bottom: 2em
+}
+
+.quarto-informacoes{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.quarto-informacoes li{
+    width: calc((100% / 4) - 1em);
+    margin: .5em;
+    box-sizing: border-box;
+    text-align: start;
+}
+
+.fdp{
+    height: 100% !important;
+}
+
+
+
+/*Querie*/
+
+@media (max-width: 928px){
+    .quarto-informacoes li{
+        width: 16rem;
+    }
+    .quarto-informacoes{
+        justify-content: center;
+    }
+}
