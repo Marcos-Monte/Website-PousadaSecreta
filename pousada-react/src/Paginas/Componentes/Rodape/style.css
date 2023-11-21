@@ -1,0 +1,46 @@
+/*Rodapé*/
+
+.rodape {
+    background-color: var(--verde);
+    width: 100%;
+    color: var(--branco);
+    margin-top: 3em;
+}
+
+.rodape-contatos {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2em 0;
+}
+
+.rodape-contatos div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 16rem;
+    text-align: start;
+    margin: 1em 0;
+}
+
+.rodape-contatos h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.rodape-contatos a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: .5em;
+    color: var(--branco);
+    text-decoration: none;
+}
+
+
+.assinatura {
+    padding: 2em;
+    border-top: 3px solid var(--verde-escuro);
+}

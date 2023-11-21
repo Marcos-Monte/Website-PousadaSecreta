@@ -1,63 +1,11 @@
 @import url("./reset.css");
 @import url("./quartosPage.css");
 
-:root{
-    --preto: #000000;
-    --azul: rgb(53, 201, 238);
-    --verde:rgb(50, 141, 111);
-    --verde-escuro: rgb(33, 107, 81);
-    --branco: #ffffff;
-}
 
-*{
-    box-sizing: border-box;
-    font-size: 16px;
-}
 
-body{
-    width: 100%;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 16px;
-    min-width: 23.43rem;
-    text-align: center;
-}
-
-.largura-tela{
-    max-width:64rem; 
-    margin: 0 auto;
-}
-
-/*Header*/
-.topo__container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1em .5em;
-}
-
-.topo__container a{
-    text-decoration: none;
-    color: var(--preto);
-}
-
-.topo__logo{
-    font-size: 1.5rem;
-}
-
-.topo__logo span{
-    color: var(--azul);
-}
-
-.topo__links a{
-    text-transform: uppercase;
-}
-
-.topo__links a:nth-child(even){
-    margin: 0 1em;
-}
 
 /*Banner*/
-.banner{
+.banner {
     width: 100%;
     height: 100vh;
     background: url("../assets/img-fundo.jpg") no-repeat;
@@ -69,76 +17,77 @@ body{
     color: var(--branco);
 }
 
-.banner__container{
+.banner__container {
     position: relative;
     padding: 2em 1em;
     font-size: 2rem;
-    
+
 }
 
-.banner__container::before{
+.banner__container::before {
     position: absolute;
     content: " ";
     background-color: var(--verde);
     border: 2px solid var(--branco);
     border-radius: 2rem;
     opacity: .5;
-    top:0;
+    top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     box-sizing: border-box;
-    
+
 }
 
-.banner__container h1{
+.banner__container h1 {
     font-size: 4rem;
     font-weight: bold;
     margin-bottom: .5em;
 }
 
-.banner__container h1, .banner__container p{
+.banner__container h1,
+.banner__container p {
     position: relative;
     z-index: 2;
 }
 
 
-.conteudo{
+.conteudo {
     padding: 4em 0;
     width: 100%;
 }
 
-.conteudo h2{
+.conteudo h2 {
     font-size: 3rem;
     text-transform: uppercase;
     font-weight: 400;
 }
 
-.conteudo p{
+.conteudo p {
     margin: 2em auto;
 }
 
-#quartos{
+#quartos {
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.quarto__opcao{
+.quarto__opcao {
     width: 19.33rem;
     height: 100%;
     margin: .5em;
 }
 
-.quarto__opcao img{
+.quarto__opcao img {
     height: 12rem;
     width: 100%;
     box-sizing: border-box;
     margin-bottom: 1.5em;
 }
 
-.quarto__opcao a{
+.quarto__opcao a {
     display: block;
     text-transform: uppercase;
     text-decoration: none;
@@ -147,29 +96,26 @@ body{
     border-bottom: 2px solid var(--verde);
 }
 
-/*Rotas*/
 
-/* #rota h2{
-    margin-top: 2em;
-} */
-
-iframe{
+iframe {
     width: 100%;
 }
 
 /*Sobre*/
 
 
-.sobre__diferenciais, .diferencial, .diferencial-descricao{
+.sobre__diferenciais,
+.diferencial,
+.diferencial-descricao {
     display: flex;
 }
 
-.sobre__diferenciais{
+.sobre__diferenciais {
     width: 100%;
     flex-wrap: wrap;
 }
 
-.diferencial{
+.diferencial {
     line-height: 1.5em;
     width: 31rem;
     height: 9rem;
@@ -179,83 +125,17 @@ iframe{
     justify-content: space-between;
 }
 
-.diferencial-descricao{
+.diferencial-descricao {
     flex-direction: column;
     justify-content: center;
 }
 
-.diferencial img{
+.diferencial img {
     width: 30%;
     margin-left: .5em;
 }
 
-.diferencial-descricao h3{
+.diferencial-descricao h3 {
     font-weight: bold;
     margin-bottom: 1em;
 }
-
-
-/*Rodapé*/
-
-.rodape{
-    background-color: var(--verde);
-    width: 100%;
-    color: var(--branco);
-    margin-top: 3em;
-}
-
-.rodape-contatos{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 2em 0;
-}
-
-.rodape-contatos div{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 16rem;
-    text-align: start;
-    margin: 1em 0;
-}
-
-.rodape-contatos h3{
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-.rodape-contatos a{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;  
-    gap: .5em;
-    color: var(--branco);
-    text-decoration: none;
-}
-
-
-.assinatura{
-    padding: 2em;
-    border-top: 3px solid var(--verde-escuro);
-}
-
-
-/*Querie*/
-
-@media (max-width: 1023px){
-
-    .rodape-contatos, #quartos, .sobre__diferenciais{
-        justify-content: center;
-    }
-    
-}
-
-
-
-
-
-
-

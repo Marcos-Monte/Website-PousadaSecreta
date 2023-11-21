@@ -1,0 +1,39 @@
+:root {
+    --preto: #000000;
+    --azul: rgb(53, 201, 238);
+    --verde: rgb(50, 141, 111);
+    --verde-escuro: rgb(33, 107, 81);
+    --branco: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    width: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    min-width: 23.43rem;
+    text-align: center;
+}
+
+.largura-tela {
+    max-width: 64rem;
+    margin: 0 auto;
+}
+
+/*Querie*/
+
+@media (max-width: 1023px) {
+
+    .rodape-contatos,
+    #quartos,
+    .sobre__diferenciais {
+        justify-content: center;
+    }
+
+}

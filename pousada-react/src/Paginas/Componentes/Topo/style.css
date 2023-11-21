@@ -1,0 +1,28 @@
+/*Header*/
+.topo__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em .5em;
+}
+
+.topo__container a {
+    text-decoration: none;
+    color: var(--preto);
+}
+
+.topo__logo {
+    font-size: 1.5rem;
+}
+
+.topo__logo span {
+    color: var(--azul);
+}
+
+.topo__links a {
+    text-transform: uppercase;
+}
+
+.topo__links a:nth-child(even) {
+    margin: 0 1em;
+}
