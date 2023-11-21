@@ -10,39 +10,39 @@ export default function PaginaQuartos() {
         <div className="quartos">
             <Header />
             <main>
-                <section class="banner banner-quarto">
+                <section className="banner banner-quarto">
 
                 </section>
 
-                <section class="largura-tela">
+                <section className="largura-tela">
 
-                    <div class="conteudo" id="solteiro">
+                    <div className="conteudo" id="solteiro">
                         <h2>quarto de solteiro</h2>
                         <p>Conheça os nossos quartos de solteiro.</p>
 
                     </div>
 
-                    <div id="quartos">
+                    <div className="container-quartos">
 
-                        <figure class="quarto__opcao">
-                            <img src="./assets/quarto-solteiro1.jpg" alt="Quarto de solteiro" />
-                        </figure>
 
-                        <figure class="quarto__opcao">
-                            <img src="./assets/quarto-solteiro2.jpg" alt="Quarto de solteiro" />
-                        </figure>
+                        <img className="quarto__opcao" src="./assets/quarto-solteiro1.jpg" alt="Quarto de solteiro" />
 
-                        <figure class="quarto__opcao">
-                            <img src="./assets/quarto-solteiro3.jpg" alt="Quarto solteiro" />
-                        </figure>
+
+
+                        <img className="quarto__opcao" src="./assets/quarto-solteiro2.jpg" alt="Quarto de solteiro" />
+
+
+
+                        <img className="quarto__opcao" src="./assets/quarto-solteiro3.jpg" alt="Quarto solteiro" />
+
 
                     </div>
 
-                    <div class="informacoes">
+                    <div className="informacoes">
 
                         <h3>Informações sobre o quarto</h3>
 
-                        <ul class="quarto-informacoes">
+                        <ul className="quarto-informacoes">
                             <li>TV de tela plana a cabo</li>
                             <li>Cozinha compacta</li>
                             <li>Área para refeições</li>
@@ -53,32 +53,32 @@ export default function PaginaQuartos() {
 
                     </div>
 
-                    <div class="conteudo" id="casal">
+                    <div className="conteudo" id="casal">
                         <h2>quarto de casal</h2>
                         <p>Conheça os nossos quartos de casal.</p>
 
                     </div>
 
-                    <div id="quartos">
+                    <div className="container-quartos">
 
-                        <figure class="quarto__opcao">
-                            <img src="./assets/quarto-casal1.jpg" alt="Quarto de casa" />
-                        </figure>
 
-                        <figure class="quarto__opcao">
-                            <img src="./assets/quarto-casal2.jpg" alt="Quarto de casal" />
-                        </figure>
+                        <img className="quarto__opcao" src="./assets/quarto-casal1.jpg" alt="Quarto de casa" />
 
-                        <figure class="quarto__opcao">
-                            <img src="./assets/quarto-casal3.jpg" alt="Quarto de casal" />
-                        </figure>
+
+
+                        <img className="quarto__opcao" src="./assets/quarto-casal2.jpg" alt="Quarto de casal" />
+
+
+
+                        <img className="quarto__opcao" src="./assets/quarto-casal3.jpg" alt="Quarto de casal" />
+
 
                     </div>
 
-                    <div class="informacoes">
+                    <div className="informacoes">
                         <h3>Informações sobre o quarto</h3>
 
-                        <ul class="quarto-informacoes">
+                        <ul className="quarto-informacoes">
                             <li>TV de tela plana a cabo</li>
                             <li>Cozinha compacta</li>
                             <li>Área para refeições</li>
@@ -88,32 +88,32 @@ export default function PaginaQuartos() {
                         </ul>
                     </div>
 
-                    <div class="conteudo" id="familia">
+                    <div className="conteudo" id="familia">
                         <h2>quarto família</h2>
                         <p>Conheça os nossos quartos família.</p>
 
                     </div>
 
-                    <div id="quartos">
+                    <div className="container-quartos">
 
-                        <figure class="quarto__opcao">
-                            <img src="./assets/quarto-familia1.jpg" alt="Quarto Família" />
-                        </figure>
 
-                        <figure class="quarto__opcao">
-                            <img src="./assets/quarto-familia2.jpg" alt="Quarto Família" />
-                        </figure>
+                        <img className="quarto__opcao" src="./assets/quarto-familia1.jpg" alt="Quarto Família" />
 
-                        <figure class="quarto__opcao">
-                            <img src="./assets/quarto-familia3.jpg" alt="Quarto Família" />
-                        </figure>
+
+
+                        <img className="quarto__opcao" src="./assets/quarto-familia2.jpg" alt="Quarto Família" />
+
+
+
+                        <img className="quarto__opcao" src="./assets/quarto-familia3.jpg" alt="Quarto Família" />
+
 
                     </div>
 
-                    <div class="informacoes">
+                    <div className="informacoes">
                         <h3>Informações sobre o quarto</h3>
 
-                        <ul class="quarto-informacoes">
+                        <ul className="quarto-informacoes">
 
                             <li>TV de tela plana a cabo</li>
                             <li>Cozinha compacta</li>

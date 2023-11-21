@@ -2,6 +2,8 @@ import React from 'react';
 
 import './style.css';
 
+import { Link } from 'react-router-dom';
+
 import Footer from '../Componentes/Rodape';
 import Header from '../Componentes/Topo';
 
@@ -30,21 +32,21 @@ export default function PaginaInicial() {
 
                     </div>
 
-                    <div id="quartos">
+                    <div className="container-quartos">
 
                         <figure class="quarto__opcao">
                             <img src="./assets/quarto-solteiro1.jpg" alt="Quarto de solteiro" />
-                            <a href="quartos.html#solteiro">quarto de solteiro</a>
+                            <Link to="/quartos#solteiro">quarto de solteiro</Link>
                         </figure>
 
                         <figure class="quarto__opcao">
                             <img src="./assets/quarto-casal1.jpg" alt="Quarto de casal" />
-                            <a href="quartos.html#casal">quarto de casal</a>
+                            <Link to="/quartos#casal">quarto de casal</Link>
                         </figure>
 
                         <figure class="quarto__opcao">
                             <img src="./assets/quarto-familia1.jpg" alt="Quarto família" />
-                            <a href="quartos.html#familia">quarto família</a>
+                            <Link to="/quartos#familia">quarto família</Link>
                         </figure>
 
                     </div>

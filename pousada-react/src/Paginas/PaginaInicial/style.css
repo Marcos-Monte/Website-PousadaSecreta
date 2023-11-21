@@ -61,25 +61,24 @@
     margin: 2em auto;
 }
 
-#quartos {
+.container-quartos {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 .quarto__opcao {
-    flex-grow: 1;
-    width: 19.33rem;
-    height: 100%;
-    margin: .5em;
+    /* flex: 1 2 201px; */
+    width: 16rem;
+    height: 200px;
+    margin: 1.6em .5em;
 }
 
 .quarto__opcao img {
-    height: auto;
+    height: 100%;
     width: 100%;
     box-sizing: border-box;
-    margin-bottom: 1.5em;
 }
 
 .quarto__opcao a {
