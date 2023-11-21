@@ -44,3 +44,9 @@
     padding: 2em;
     border-top: 3px solid var(--verde-escuro);
 }
+
+@media (max-width: 550px) {
+    .rodape-contatos {
+        flex-direction: column;
+    }
+}

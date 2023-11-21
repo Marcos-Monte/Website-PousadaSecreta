@@ -44,7 +44,7 @@ const Footer = () => {
                 </div>
 
                 <div className="assinatura">
-                    &COPY; Copyright - PousadaDev
+                    © Copyright - PousadaDev
                 </div>
             </div>
 

@@ -1,0 +1,154 @@
+/*Banner*/
+.banner {
+    width: 100%;
+    height: 100vh;
+    background: url("../../../public/assets/img-fundo.jpg") no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--branco);
+}
+
+.banner__container {
+    position: relative;
+    padding: 2em 1em;
+    font-size: 2rem;
+
+}
+
+.banner__container::before {
+    position: absolute;
+    content: " ";
+    background-color: var(--verde);
+    border: 2px solid var(--branco);
+    border-radius: 2rem;
+    opacity: .5;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-sizing: border-box;
+
+}
+
+.banner__container h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: .5em;
+}
+
+.banner__container h1,
+.banner__container p {
+    position: relative;
+    z-index: 2;
+}
+
+
+.conteudo {
+    padding: 4em 0;
+    width: 100%;
+}
+
+.conteudo h2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.conteudo p {
+    margin: 2em auto;
+}
+
+#quartos {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.quarto__opcao {
+    flex-grow: 1;
+    width: 19.33rem;
+    height: 100%;
+    margin: .5em;
+}
+
+.quarto__opcao img {
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 1.5em;
+}
+
+.quarto__opcao a {
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--preto);
+    padding-bottom: 1.5em;
+    border-bottom: 2px solid var(--verde);
+}
+
+
+iframe {
+    width: 100%;
+}
+
+/*Sobre*/
+
+
+.sobre__diferenciais,
+.diferencial,
+.diferencial-descricao {
+    display: flex;
+}
+
+.sobre__diferenciais {
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.diferencial {
+    line-height: 1.5em;
+    width: 100%;
+    height: 9rem;
+    margin: .5em;
+    box-sizing: border-box;
+    text-align: start;
+    justify-content: space-between;
+}
+
+.diferencial-descricao {
+    width: 70%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.diferencial img {
+    height: auto;
+    width: 30%;
+    margin-left: .5em;
+}
+
+.diferencial-descricao h3 {
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+@media (max-width: 670px) {
+    .diferencial {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .diferencial-descricao {
+        width: 100%;
+        text-align: center;
+    }
+
+    .diferencial img {
+        display: none;
+    }
+}

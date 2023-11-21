@@ -23,6 +23,7 @@ body {
 
 .largura-tela {
     max-width: 64rem;
+    padding: 0 10px;
     margin: 0 auto;
 }
 
