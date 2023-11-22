@@ -15,8 +15,8 @@ const Header = () => {
                 </div>
 
                 <div className="topo__links">
-                    <a href="index.html#sobre">sobre</a>
-                    <a href="index.html#rota">rota</a>
+                    <Link to="/#sobre">sobre</Link>
+                    <Link to="/#rota">rota</Link>
                     <Link to="/quartos">quartos</Link>
                 </div>
 
