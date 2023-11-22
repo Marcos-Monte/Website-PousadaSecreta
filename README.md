@@ -3,8 +3,8 @@
 
 <h2>Layout Web Page</h2>
 
-<img src="Layouts/layout-pagina-principal-estilizada.jpeg">
-<img src="Layouts/layout-pagina-quartos-estilizada.jpeg">
+<img src="public/assets/Layouts/layout-pagina-principal-estilizada.jpeg">
+<img src="public/assets/Layouts/layout-pagina-quartos-estilizada.jpeg">
 
 
 <ul>
