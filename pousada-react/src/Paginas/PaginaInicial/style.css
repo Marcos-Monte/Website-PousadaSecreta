@@ -64,14 +64,14 @@
 .container-quartos {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
 .quarto__opcao {
     /* flex: 1 2 201px; */
-    width: 16rem;
-    height: 200px;
+    width: 19rem;
+    height: 18rem;
     margin: 1.6em .5em;
 }
 
